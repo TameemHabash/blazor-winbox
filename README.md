@@ -2,12 +2,12 @@
 
 Multiple Windows Library that wraps [WinBox.js](https://github.com/nextapps-de/winbox) in Blazor Components.
 
-*Windows management and rendering processes was inspired  by [MudBlazor](https://mudblazor.com) dialogs*
+*Windows management and rendering processes were inspired  by [MudBlazor](https://mudblazor.com) dialogs*
 <br />
 <br />
 
 ## Compatibility
-Only Blazor WASM (client-side) applications currently supported. This library is not tested on Blazor Server applications.
+Only Blazor WASM (client-side) applications are currently supported. This library is not tested on Blazor Server applications.
 <br />
 <br />
 
