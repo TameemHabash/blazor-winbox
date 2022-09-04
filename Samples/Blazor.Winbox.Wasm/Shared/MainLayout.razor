@@ -1,0 +1,30 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <WindowProvider GlobalWindowsOptions="_GlobalWindowOptions" />
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://github.com/TameemHabash/blazor-winbox target="_blank">GitHub Repository</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    private GlobalWindowOptions _GlobalWindowOptions;
+
+    protected override void OnInitialized()
+    {
+        _GlobalWindowOptions = new GlobalWindowOptions
+        {
+            AutoSize = false,
+        };
+    }
+}

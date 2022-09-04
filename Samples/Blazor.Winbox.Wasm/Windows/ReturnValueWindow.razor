@@ -1,0 +1,29 @@
+﻿<Window Title="Counter Window">
+    <h1>Counter</h1>
+
+    <p role="status">Current count: @_CurrentCount</p>
+
+    <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+    <button class="btn btn-dark" @onclick="@ReturnCurrentValueAsync">Return current value</button>
+</Window>
+@code {
+    [Parameter] public int CurrentCount { get; set; }
+    [CascadingParameter] public WindowInstance WindowInstance { get; set; }
+
+    private int _CurrentCount;
+
+    protected override void OnInitialized()
+    {
+        _CurrentCount = CurrentCount;
+    }
+
+    private void IncrementCount()
+    {
+        _CurrentCount++;
+    }
+
+    private async Task ReturnCurrentValueAsync()
+    {
+        await WindowInstance.CloseAsync(WindowResult.Ok(_CurrentCount));
+    }
+}

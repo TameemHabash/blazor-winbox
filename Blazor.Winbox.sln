@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Winbox", "Blazor.Winbox\Blazor.Winbox.csproj", "{ACB83104-947A-45F9-B354-286619118D90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{B5433A4A-CB20-469D-B9E6-D52A312C010E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Winbox.Wasm", "Samples\Blazor.Winbox.Wasm\Blazor.Winbox.Wasm.csproj", "{FED97EDF-35B9-432A-B7CE-AD943F016235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB83104-947A-45F9-B354-286619118D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB83104-947A-45F9-B354-286619118D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB83104-947A-45F9-B354-286619118D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB83104-947A-45F9-B354-286619118D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED97EDF-35B9-432A-B7CE-AD943F016235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED97EDF-35B9-432A-B7CE-AD943F016235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED97EDF-35B9-432A-B7CE-AD943F016235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED97EDF-35B9-432A-B7CE-AD943F016235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FED97EDF-35B9-432A-B7CE-AD943F016235} = {B5433A4A-CB20-469D-B9E6-D52A312C010E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA780B74-F223-46D8-844E-328865C2FD9B}
+	EndGlobalSection
+EndGlobal

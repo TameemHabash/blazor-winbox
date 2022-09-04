@@ -1,0 +1,9 @@
+﻿@page "/"
+
+<PageTitle>Multi-Windows Usage</PageTitle>
+<button class="btn btn-primary m-2" @onclick="@OpenOptionsWindow">Open options window</button>
+
+<div class="input-group m-2" style="width: 349px;">
+    <input @bind-value="_InitialCount" type="number" class="form-control" placeholder="Initial count" aria-describedby="button-open">
+    <button @onclick="@OpenWindowWithResultAsync" class="btn btn-outline-secondary" type="button" id="button-open">Open Window with result</button>
+</div>

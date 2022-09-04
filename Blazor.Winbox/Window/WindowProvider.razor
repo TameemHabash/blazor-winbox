@@ -1,0 +1,9 @@
+﻿@namespace Blazor.Winbox
+<CascadingValue Value="@GlobalWindowsOptions" IsFixed="true">
+    @foreach (var windowReference in _windows.Where(x => !x.Result.IsCompleted))
+    {
+        <CascadingValue TValue="NotAllowToUse" Value="_notAllowToUse" IsFixed="true" @key="@windowReference">
+            @windowReference.RenderFragment
+        </CascadingValue>
+    }
+</CascadingValue>

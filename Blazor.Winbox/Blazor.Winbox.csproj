@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Version>0.2.1</Version>
+    <Authors>Tameem Habash</Authors>
+    <Company>HIT</Company>
+    <Description>Blazor Multiple Windows Library that wraps winbox.js in Blazor components
+</Description>
+    <Title>Blazor Multiple Windows</Title>
+    <Copyright>Copyright 2022 </Copyright>
+    <PackageIcon>HITIcon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/TameemHabash/blazor-winbox</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>blazor multi window multiple windows winbox wasm client side</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReleaseNotes>Partial support of all winbox.js important functionalities</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="bundleconfig.json" />
+    <Content Remove="wwwroot\HITIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\HITIcon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="bundleconfig.json" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.8" />
+  </ItemGroup>
+
+</Project>
