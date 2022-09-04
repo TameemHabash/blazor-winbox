@@ -1,4 +1,4 @@
-﻿# Blazor.Winbox
+﻿# Blazor Winbox
 
 Multiple Windows Library that wraps [WinBox.js](https://github.com/nextapps-de/winbox) in Blazor Components.
 
@@ -94,3 +94,5 @@ void OpenCounter(){
     IWindowReference windowReference = WindowManager.Open<Counter>();
 }
 ```
+
+![Preview](./Docs/BlazorWinbox.gif)

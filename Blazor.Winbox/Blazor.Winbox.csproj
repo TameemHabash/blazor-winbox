@@ -12,8 +12,8 @@
 </Description>
     <Title>Blazor Multiple Windows</Title>
     <Copyright>Copyright 2022 </Copyright>
-    <PackageIcon>HITIcon.png</PackageIcon>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>favicon.png</PackageIcon>
+    <PackageReadmeFile></PackageReadmeFile>
     <RepositoryUrl>https://github.com/TameemHabash/blazor-winbox</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>blazor multi window multiple windows winbox wasm client side</PackageTags>
@@ -26,15 +26,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\HITIcon.png">
+    <None Include="..\Docs\favicon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
     <None Include="..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
