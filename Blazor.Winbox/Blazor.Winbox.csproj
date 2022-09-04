@@ -22,7 +22,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="bundleconfig.json" />
     <Content Remove="wwwroot\HITIcon.png" />
   </ItemGroup>
 
@@ -39,7 +38,6 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="bundleconfig.json" />
   </ItemGroup>
 
 
