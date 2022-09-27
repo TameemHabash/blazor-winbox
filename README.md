@@ -7,7 +7,7 @@ Multiple Windows Library that wraps [WinBox.js](https://github.com/nextapps-de/w
 <br />
 
 ## Compatibility
-Only Blazor WASM (client-side) applications are currently supported. This library is not tested on Blazor Server applications.
+Only Blazor WASM (client-side) .NET 6 applications are currently supported. This library is not tested on Blazor Server applications.
 <br />
 <br />
 
@@ -36,11 +36,10 @@ dotnet add package Blazor.Winbox
 
 * Register `Blazor.Winbox` Service in `Program` Class:
  ```c#
- public static async Task Main(string[] args)
-{
-    //...omitted for brief
+    using Blazor.Winbox; 
+
+
     builder.Services.AddBlazorWinbox();
-}
  ```
  * Add script references to `index.html` after Blazor script
   ```html
