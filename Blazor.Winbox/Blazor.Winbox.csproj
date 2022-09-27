@@ -5,7 +5,7 @@
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <Version>0.2.11</Version>
+    <Version>0.2.12</Version>
     <Authors>Tameem Habash</Authors>
     <Company>HIT</Company>
     <Description>Blazor Multiple Windows Library that wraps winbox.js in Blazor components
@@ -18,7 +18,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>blazor multi window multiple windows winbox wasm client side</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageReleaseNotes>Partial support of all winbox.js important functionalities</PackageReleaseNotes>
+    <PackageReleaseNotes>Update .NET package to  to 6.0.9</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -42,7 +42,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.9" />
   </ItemGroup>
 
 </Project>
