@@ -2,7 +2,7 @@
 using Microsoft.JSInterop;
 using System.ComponentModel;
 
-namespace Blazor.Winbox;
+namespace BlazorWinbox;
 
 public partial class WindowInstance
 {

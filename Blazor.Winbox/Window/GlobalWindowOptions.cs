@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace Blazor.Winbox;
+namespace BlazorWinbox;
 
 public class GlobalWindowOptions
 {

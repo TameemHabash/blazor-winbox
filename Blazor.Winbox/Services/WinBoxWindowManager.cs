@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 
-namespace Blazor.Winbox;
+namespace BlazorWinbox;
 
 public class WinBoxWindowManager : IWindowManager
 {

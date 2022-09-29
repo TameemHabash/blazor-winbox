@@ -3,7 +3,7 @@ using Microsoft.JSInterop;
 using System.ComponentModel;
 using System.Reflection;
 
-namespace Blazor.Winbox;
+namespace BlazorWinbox;
 
 /// <summary>
 /// All window options that contains only data properties (does not contains Actions or Funcs) so it can be serialized to javascript object by the framework

@@ -1,4 +1,5 @@
 ﻿using Blazor.Winbox.Wasm.Windows;
+using BlazorWinbox;
 using Microsoft.AspNetCore.Components;
 
 namespace Blazor.Winbox.Wasm.Pages

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Blazor.Winbox;
+namespace BlazorWinbox;
 
 public static class WebAssemblyHostBuilderExtensions
 {

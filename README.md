@@ -29,14 +29,14 @@ dotnet add package Blazor.Winbox
 ```
 
 ### Configurations:
-* Import `Blazor.Winbox` by adding the following in `_Imports.razor`
+* Import `BlazorWinbox` by adding the following in `_Imports.razor`
 ```
-@using Blazor.Winbox
+@using BlazorWinbox
 ```
 
-* Register `Blazor.Winbox` Service in `Program` Class:
+* Register Service in `Program` Class:
  ```c#
-    using Blazor.Winbox; 
+    using BlazorWinbox; 
 
 
     builder.Services.AddBlazorWinbox();

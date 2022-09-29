@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using System.Collections.ObjectModel;
 
-namespace Blazor.Winbox;
+namespace BlazorWinbox;
 
 public partial class WindowProvider : IDisposable
 {

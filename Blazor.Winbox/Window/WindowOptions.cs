@@ -1,4 +1,4 @@
-﻿namespace Blazor.Winbox;
+﻿namespace BlazorWinbox;
 
 public class WindowOptions : BasicWindowOptions
 {

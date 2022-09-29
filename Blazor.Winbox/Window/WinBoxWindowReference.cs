@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace Blazor.Winbox;
+namespace BlazorWinbox;
 
 /// <summary>
 /// Windows reference that implements <see cref="IWindowReference" ></see> with WinBox.js needed, for more information visit `https://github.com/nextapps-de/winbox`

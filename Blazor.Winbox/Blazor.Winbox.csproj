@@ -5,7 +5,7 @@
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <Version>0.2.12</Version>
+    <Version>0.2.13</Version>
     <Authors>Tameem Habash</Authors>
     <Company>HIT</Company>
     <Description>Blazor Multiple Windows Library that wraps winbox.js in Blazor components
@@ -18,7 +18,8 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>blazor multi window multiple windows winbox wasm client side</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageReleaseNotes>Update .NET package to  to 6.0.9</PackageReleaseNotes>
+    <PackageReleaseNotes>Change namespace from  Blazor.Winbox to BlazorWinbox to prevent namespaces overlap in .razor files</PackageReleaseNotes>
+    <RootNamespace>BlazorWinbox</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

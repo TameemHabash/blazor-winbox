@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Blazor.Winbox;
+namespace BlazorWinbox;
 
 public class WindowParameters : IEnumerable<KeyValuePair<string, object>>
 {
